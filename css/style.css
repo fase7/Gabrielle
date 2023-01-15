@@ -1,0 +1,155 @@
+:root{
+    --blue-color: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+.page{
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    height: 730px;
+    background-color:white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+}
+.container .landing{
+    background-image: url(../images/illustration-hero.svg);
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.page .container .text {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    color: var(--Dark-blue);
+    
+}
+.page .container .text {
+
+}
+.page .container .text p{
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8D90A4;
+    font-weight: 100;
+
+}
+.page .container .text .play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: var(--Very-blue);
+    padding: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.page .container .text .play span {
+    display: block;
+    
+    
+}
+.page .container .text .play span:first-child {
+    margin-bottom: 20px;
+    font-weight: 600;
+    
+}
+
+.page .container .text .play a{
+    text-decoration: none;
+    color: var(--Bright-blue);
+}
+.page .container .text .play a:hover{
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+}
+.page .container .text .play .f{
+    display: flex;
+justify-content: flex-start;}
+.page .container .text .play img{
+    height: 60px;
+    margin-right: 40px;
+}
+.page .container .text button{
+    border: none;
+    padding: 20px;
+    background-color: #382AE1;
+    color: white;
+    width: 95%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 50px;
+}
+.page .container .text button:hover{
+    background-color: #766CF1;
+}
+.page .container .text .link a {
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+}
+.page .container .text .link a:hover {
+    color: var(--Dark-blueblue);
+    
+}
+@media (max-width:767px) {
+    .page .container{
+        width: 90%;
+        height: 770px;
+    }
+    .page .container .landing{
+        
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .page .container .text{
+        padding-top: 0px;
+    }
+    .page .container .text .play img{
+        height: 40px;
+        margin-right: 10px;
+    }
+    .page .container .text .play span{
+        font-size: 12px;
+        
+    }
+    
+}
+
+
+
